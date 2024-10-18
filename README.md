@@ -4,7 +4,7 @@ My ASCII maze generator using the ASCII box-drawing characters. It involves 3 ma
 
 https://github.com/user-attachments/assets/1d65b829-d5df-46a8-839e-a85c0b168d17
 
-## Running it ▶️
+## ▶️ Running it 
 Must be run in linux \
 `./main`
 
@@ -14,9 +14,9 @@ Or compile it yourself \
 
 To make the maze bigger, zoom out in your terminal. It creates the maze by getting window dimensions.
 
-## How does it work ⚙️
+## ⚙️How does it work 
 
-### Maze generation 🏗️
+### 🏗️Maze generation 
 
 1. The maze begins completely closed off. Both algorithms pick edges to open a route between one square to another.
 
@@ -25,7 +25,7 @@ To make the maze bigger, zoom out in your terminal. It creates the maze by getti
     2. However this left some squares unconnected to the main maze, so I switched to using Prim's algorithm that used a priority queue with a random custom comparator to ensure each maze was generated randomly.
 3. During generation, an adjacency map is constructed to be used in the maze solving algorithms
 
-### Maze solving 🧩
+### 🧩Maze solving 
 
 I used 3 different algorithms
 
